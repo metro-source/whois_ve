@@ -12,7 +12,6 @@ class DomainTestCase(unittest.TestCase):
         self.assertTrue(whois_ve.lookup('madurooooooooooooooo.org.ve'))
 
     def test_invalid_tld(self):
-
         for domain in ('bitcoin.com', 'petro.gob.ve', 'nic.ve'):
             with self.assertLogs(logging.getLogger(), level='INFO'):
                 whois_ve.lookup(domain)

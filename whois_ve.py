@@ -31,7 +31,8 @@ TLDs = (
     '.net.ve',
     '.org.ve',
     '.info.ve',
-    '.web.ve'
+    '.web.ve',
+    '.co.ve'
 )
 
 def lookup(domain: str) -> bool:
