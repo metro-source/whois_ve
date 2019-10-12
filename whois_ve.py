@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 Extracts information on .ve domains
 """
